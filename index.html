@@ -4,15 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./dsd.png" type="image/x-icon">
     <title>Portfolio | Anurag Deore</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 2px;
+            color: #42435a;
+            color: #fff;
+            background-color: #003140;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top img {
+            margin-left: 2rem;
+            border-radius: 2rem;
+            width: 40vh;
+
+        }
+
+        embed {
+            cursor: default;
+            border-radius: 1rem;
+            width: 60%;
+            height: 50vh;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .top {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            embed {
+                cursor: default;
+                border-radius: 0rem;
+                width: 100%;
+                height: 50vh;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>
-        HI, I'm ANURAG DEORE
+    <h1 class="top">
+        Hi, I'm Anurag !<br>
+        My Portfolio is
+        under construction
+        <img src="./avento.gif" alt="">
     </h1>
+    <h3>
+        Checkout my resume by then..
+    </h3>
+    <embed src="./onlineresume.pdf#toolbar=0&navpanes=0&scrollbar=0"">
 </body>
 
 </html>
